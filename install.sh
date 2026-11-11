@@ -66,8 +66,8 @@ run_install_singbox() {
        sh /tmp/"$NAME_SCRIPT_SIN".sh --version "$VERSION"
        rm /tmp/"$NAME_SCRIPT_SIN".sh
        sing-box version
-       echo "waiting 7 seconds"
-       sleep 7
+       echo "waiting 3 seconds"
+       sleep 3
     else
       echo " Не удалось скачать скрипт $NAME_SCRIPT_SIN"
 
