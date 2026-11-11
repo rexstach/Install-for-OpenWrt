@@ -262,7 +262,7 @@ else
 fi
 
  printf "\033[32;1mНастроить роутер как (по умолчан локал):\n 1.локальный\n 2.удаленный  \033[0m\n"
-        read ROUTER_TYPE
+        read ROUTER_TYPE </dev/tty
         ROUTER_TYPE=${ROUTER_TYPE:-1}
           if [ "$ROUTER_TYPE" = "1" ]; then
             printf "\033[1;33mВы выбрали локальный\033[0m\n"
